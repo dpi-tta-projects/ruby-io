@@ -13,5 +13,5 @@
 #   Iterate line-by-line (each_line)
 #   Print "N: <line>" (remember to remove any trailing newline if you want a clean format)
 #
-
-filename = ARGV[0]
+# Tips:
+#   Use a file in the data folder for testing
