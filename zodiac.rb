@@ -4,7 +4,7 @@
 #   Read in csv file with names and birthdays. Output a csv with names and chinese zodiac animal.
 #
 # Usage:
-#   ruby zodiac.rb data/famous_birthdays.csv tmp/famous_zodiacs.csv
+#   ruby zodiac.rb data/famous_birthdays.csv output/famous_zodiacs.csv
 #
 # Tips:
 #   2020 → Rat
