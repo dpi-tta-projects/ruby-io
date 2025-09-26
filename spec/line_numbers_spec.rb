@@ -7,7 +7,7 @@ RSpec.describe "line_numbers.rb" do
 
   describe "output" do
     it "prints lines with numbers (1-based)", points: 2 do
-      output = run_script_and_capture_lines("line_numbers.rb", "tmp/poem.txt")
+      output = run_script_and_capture_lines("line_numbers.rb", argv: ["tmp/poem.txt"])
       expect(output[0]).to eq("1: roses are red")
       expect(output[1]).to eq("2: violets are blue")
     end

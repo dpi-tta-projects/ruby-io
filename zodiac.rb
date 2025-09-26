@@ -4,7 +4,7 @@
 #   Read in csv file with names and birthdays. Output a csv with names and chinese zodiac animal.
 #
 # Usage:
-#   ruby zodiac.rb data/famous_birthdays.csv output/famous_zodiacs.csv
+#   ruby zodiac.rb famous_birthdays.csv famous_zodiacs.csv
 #
 # Tips:
 #   2020 → Rat
@@ -23,6 +23,14 @@
 # To calculate the zodiac animal for any year:
 # - Take the year, subtract 4, then divide by 12.
 # - The remainder tells you the animal index (0 = Rat, 1 = Ox, … 11 = Pig).
+# - Use the modulo operator (%) to calculate the remainder
 #
 # Example:
-# 1991 → (1991 - 4) ÷ 12 = 165 remainder 3 → Rabbit.
+#   1991 → (1991 - 4) ÷ 12 = 165 remainder 3 → Rabbit.
+#
+# Example Ouput: famous_zodiacs.csv
+#
+# Name,Zodiac
+# Albert Einstein,Rabbit
+# ...
+#
